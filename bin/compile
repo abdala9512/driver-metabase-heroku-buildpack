@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 set -eu
 
 DRIVER_DIR="$1/target/uberjar/plugins"
