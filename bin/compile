@@ -2,5 +2,6 @@
 
 DRIVER_DIR="$1/target/uberjar/plugins"
 mkdir -p $DRIVER_DIR
+cd $DRIVER_DIR
 wget https://github.com/dacort/metabase-athena-driver/releases/download/v1.2.0-pre1/athena.metabase-driver.jar
 
